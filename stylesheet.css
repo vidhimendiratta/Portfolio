@@ -1,0 +1,392 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #030217;
+}
+
+.project{
+    background-color: #030217;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    width: 70%;
+}
+
+.container{
+    color:#cdcdff;
+    height: 100px;
+    font-family: 'Karla';
+    font-size: 20px;
+    border-bottom: 1px solid white;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+li{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+h1{
+    font-family: 'Hammersmith One';
+    font-size: 60px;
+}
+
+#intro{
+    color: #bdbddd;
+}
+
+#myname{
+    color: #807ae8;
+}
+
+p{
+    color: #cdcdff;
+    font-family: 'Karla';
+    font-size: 25px;
+    line-height: 2rem;
+}
+
+button{
+    background-color: #807ae8;
+    color: #030217;
+    font-family: 'Karla';
+    border: none;
+    border-radius: 20px; 
+    height: 40px;
+    width: 80px;
+    margin-top: 20px;
+}
+
+.body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+}
+
+.projects{
+    padding-top: 100px;
+}
+
+h2{
+    font-family: 'Karla';
+    color: #cdcdff;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.underline{
+    border-bottom: 5px solid #807ae8;
+    width: 40px;
+    margin-top: 5px;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work{
+    text-align: center;
+}
+
+.images{
+    padding-top: 70px;
+    display: inline-block;
+}
+
+.img{
+    height: 300px; 
+    width: 500px;
+    margin: 20px;
+}
+
+#musify{
+    border: 1px solid white;
+}
+
+#swiggy{
+    border: 1px solid white;
+}
+
+#tindog{
+    border: 1px solid white;
+}
+
+#games{
+    border: 1px solid white;
+}
+
+.tech{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#html{
+    border: 1px solid rgb(22 28 41 / 33%);
+    border-radius: 20%;
+    background-color: rgb(22 28 41 / 33%);
+}
+
+#css{
+    border: 1px solid rgb(22 28 41 / 33%);
+    border-radius: 20%;
+    background-color: rgb(22 28 41 / 33%);
+}
+
+#js{
+    border: 1px solid rgb(22 28 41 / 33%);
+    border-radius: 20%;
+    background-color: rgb(22 28 41 / 33%);
+}
+
+.footer{
+    background-color: rgba(44, 93, 206, 0.075);
+    margin-top: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+#content{
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 35px;
+}
+
+
+@media(max-width: 900px){
+    ul{
+        font-size: 17px;
+        padding-top: 40px;
+        justify-content: center;
+    }
+
+    li{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .container{
+        height: 100px;
+        border-bottom: 1px solid white;
+    }
+
+    .body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    #intro{
+        font-size: 60px;
+    }
+
+    #myname{
+        font-size: 60px;
+        margin-bottom: 50px;
+    }
+
+    p{
+        font-size: 25px;
+    }
+
+    .projects{
+        padding-top: 20px;
+    }
+
+    .images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img{
+        width: 500px;
+        height: 350px;
+        margin-bottom: 30px;
+    }
+} 
+
+
+@media(max-width: 700px){
+    ul{
+        font-size: 17px;
+        padding-top: 40px;
+        justify-content: center;
+    }
+
+    li{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .container{
+        height: 100px;
+        border-bottom: 1px solid white;
+    }
+
+    .body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    #intro{
+        font-size: 60px;
+    }
+
+    #myname{
+        font-size: 60px;
+        margin-bottom: 50px;
+    }
+
+    p{
+        font-size: 25px;
+    }
+
+    .projects{
+        padding-top: 20px;
+    }
+
+    .images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img{
+        width: 450px;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+} 
+
+@media(max-width: 500px){
+    ul{
+        font-size: 12px;
+        padding-top: 20px;
+        justify-content: center;
+    }
+
+    li{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .container{
+        height: 50px;
+        border-bottom: 1px solid white;
+    }
+
+    .body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    #intro{
+        font-size: 40px;
+    }
+
+    #myname{
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    p{
+        font-size: 17px;
+    }
+
+    .projects{
+        padding-top: 20px;
+    }
+
+    .images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img{
+        width: 350px;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+} 
+
+@media(max-width: 400px){
+    ul{
+        font-size: 12px;
+        padding-top: 20px;
+        justify-content: center;
+    }
+
+    li{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .container{
+        height: 50px;
+        border-bottom: 1px solid white;
+    }
+
+    .body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    #intro{
+        font-size: 40px;
+    }
+
+    #myname{
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+
+    p{
+        font-size: 17px;
+    }
+
+    .projects{
+        padding-top: 20px;
+    }
+
+    .images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img{
+        width: 250px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+} 
